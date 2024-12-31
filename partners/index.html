@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Flame Partners Form 2025</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/flame.png" rel="icon">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- <link href="assets/css/style.css" rel="stylesheet"> -->
+  <link href="assets/css/partners.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="h-100 academy-section">
+        <div class="container-fluid h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col">
+              <div class="card card-registration academy">
+                <div class="row g-0">
+                  <div class="col-xl-2"></div>
+                  <div class="col-xl-8">
+                    <div class="card-body p-md-5 text-black"> 
+                      <img class="img-center mobile-image" src="assets/img/flame.png"/>
+                      <h3 style="color: #318784;" class="text-uppercase text-center"><strong>Know Your Partners (KYP) Form</strong></h3>                    
+
+                      <form method="post" name="google-sheet" class="px-md-2">
+      
+                      <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <div class="form-outline">
+                                <input type="text" id="firstname" name="firstname" class="form-control" />
+                                <label class="form-label" for="form3Example1m">First name</label><br/>
+                                <span id="cfirstname" class="error" font-weight-bold></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="form-outline">
+                                <input type="text" id="lastname" name="lastname" class="form-control" />
+                                <label class="form-label" for="form3Example1n">Last name</label><br/>
+                                <span id="clastname" class="error" font-weight-bold></span>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-6 mb-4">
+                          <div class="form-outline mb-4"> 
+                            <input type="email" id="email" name="email" class="form-control" />
+                            <label class="form-label" for="form3Example1q">Email</label><br/>
+                            <span id="cemail" class="error" font-weight-bold></span>                
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-outline mb-4"> 
+                            <input type="text" id="birthday" name="birthday" class="form-control" placeholder="DD/MM"/>
+                            <label class="form-label" for="form3Example1q">Birthday</label><br/>
+                            <span id="cbirthday" class="error" font-weight-bold></span>                
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6 mb-4">
+                          <select id="country" class="select form-control">
+                            <option value="">Select</option>                    
+                          </select>
+                          <label class="form-label" for="form3Example1q">Country of Residence</label><br/>
+                          <span id="ccountry" class="error" font-weight-bold></span>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                          <input type="text" id="city" name="city" class="form-control" />
+                          <label class="form-label" for="form3Example1q">Resendential Address</label><br/>
+                          <span id="ccity" class="error" font-weight-bold></span>
+                        </div>                
+                      </div> 
+                      <input type="text" id="countryName" name="country" class="form-control" style="display:none" />                     
+
+                      <div class="form-outline mb-4" id="showPhone" style="display:none"> 
+                        <div class="input-group input-group-sm mb-3">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text" id="ccode">+234</span>
+                          </div>
+                          <input type="text" id="phone" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                        </div>
+                        <label class="form-label" for="form3Example1q">Phone Number</label><br/>
+                        <span id="cphone" class="error" font-weight-bold></span>
+                      </div>  
+                      <input type="text" id="phoneNumber" name="phone_number" class="form-control" style="display:none" />
+                      <div class="row">                       
+                        <div class="col-md-6 mb-4">
+                          <select id="nationality" class="select form-control">
+                            <option value="">Select</option>                    
+                          </select>
+                          <label class="form-label" for="form3Example1q">Nationality</label><br/>
+                          <span id="cnationality" class="error" font-weight-bold></span>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                          <div class="form-outline">
+                              <input type="text" id="profession" name="profession" class="form-control" />
+                              <label class="form-label" for="form3Example1m">Occupation/Profession</label><br/>
+                              <span id="cprofession" class="error" font-weight-bold></span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <input type="text" id="nationalityTxt" name="nationality" class="form-control" style="display:none" />                     
+
+
+                      <div class="d-md-flex justify-content-start align-items-center mb-4 py-2">
+                        <h6 class="mb-0 me-4">Gender: </h6>      
+                        <div class="form-check form-check-inline mb-0 me-4">
+                          <input class="form-check-input" type="radio" name="gender" class="gender"
+                            value="female" />
+                          <label class="form-check-label" for="femaleGender">Female</label>
+                        </div>      
+                        <div class="form-check form-check-inline mb-0 me-4">
+                          <input class="form-check-input" type="radio" name="gender" class="gender"
+                            value="male" />
+                          <label class="form-check-label" for="maleGender">Male</label>
+                        </div>   
+                        <span id="cgender" class="error" font-weight-bold></span>  
+                      </div>
+                      <input type="text" id="genderTxt" name="gender_txt" class="form-control" style="display:none" />
+
+                      <div class="row">                
+                        <div class="col-md-6 mb-4">
+                            <select id="source" class="select form-control">
+                              <option value="">Select</option>
+                              <option value="Salary">Salary</option>
+                              <option value="Savings">Savings</option>
+                              <option value="Donation">Donation</option>
+                              <option value="Others">Others </option>
+                            </select>
+                            <label class="form-label" for="form3Example1q">Source of Funds</label><br/>
+                            <span id="csource" class="error" font-weight-bold></span>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                          <div class="form-outline mb-4" id="showOtherSource" style="display:none"> 
+                            <input type="text" id="otherSource" class="form-control" />
+                            <label class="form-label" for="form3Example1q">Kindly Specify</label><br/>
+                            <span id="cothersource" class="error" font-weight-bold></span>
+                          </div> 
+                        </div>                       
+                      </div> 
+                      <input type="text" id="sourceTxt" name="source_of_funds" class="form-control" style="display:none" />                     
+
+                      <div class="d-flex justify-content-end pt-3">
+                        <button id="register" type="submit" class="btn btn-warning btn-lg ms-2">Submit</button>
+                      </div>
+                      </form>
+      
+                    </div>
+                  </div>
+                  <div class="col-xl-2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+     <!-- ======= Spinner ======= -->
+
+  <div class="spin"></div>
+
+  <!-- ======= Modal ======= -->
+  <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <p>Thank you for taking out time to fill this form</p>
+        </div>
+        <div class="modal-footer">
+          <button id="successBtn" style="background-color: #c28e27; border-color: #c28e27" type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <div class="modal fade" id="failureModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          Opps! something went wrong, Please contact +2349030959735, You may have filled this form.
+        </div>
+        <div class="modal-footer">
+          <button id="failureBtn" type="button" style="text-align: center;" class="btn btn-danger" data-bs-dismiss="modal">Report</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Modal -->
+
+
+</body>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+
+<script>
+
+  var countries;
+  $(document).ready(function(){
+      $.ajax({
+        url:'https://restcountries.com/v2/all',
+        type:'get',
+        success: function(response){
+          countries = response
+          countries.forEach(item => {
+          $('#country').append(`<option value="${item.callingCodes}">${item.name}</option>`);
+          $('#nationality').append(`<option value="${item.demonym}">${item.demonym}</option>`);
+        });    
+        },
+        error: function(){
+        }
+      });
+      
+  });
+
+
+  $(function() {
+    $("#country").change(function() {
+      var val = $(this).val();
+      $("#ccode").text("+"+val);
+    })
+  })
+ 
+  $(function() {
+    $("#source").change(function() {
+      var val = $(this).val();
+      if (val === "Others"){
+        $("#showOtherSource").show();
+      }
+      else{
+        $("#showOtherSource").hide();
+      }
+    })
+  })
+
+
+  $(function() {
+    $("#country").change(function() {
+      var val = $(this).val();
+      if (val === ""){
+        $("#showPhone").hide();
+      }
+      else{
+        $("#showPhone").show();        
+      }
+    })
+  })
+
+  var lastname;
+  var firstname;
+  var visitoremail;
+
+
+  function ValidateForm(){
+      lastname = $("#lastname").val();
+      firstname = $("#firstname").val();  
+      visitoremail = $("#email").val(); 
+      var source = $("#source").val();    
+      var otherSource =  $("#otherSource").val();  
+      console.log("Other source is "+otherSource);
+      var sourceTxt = source;
+      if(source == "Others"){
+        sourceTxt = otherSource
+      }
+      console.log("Source is "+sourceTxt);
+      var birthday = $("#birthday").val();
+      var code = $("#ccode").text();
+      var digit = $("#phone").val();
+      var phone = "(" + code + ")" + " "+ digit;
+      var city = $("#city").val();
+      var country = $("#country option:selected").val();
+      var countryTxt = $("#country option:selected").text();
+      var gender = $("input[name='gender']:checked").val();
+      var nationality = $("#nationality").val();
+      // var nationalityTxt = $("#nationality option:selected").text();
+      var occupation = $("#occupation").val();
+      var profession = $("#profession").val();
+      var letter = /^[a-zA-Z\s]+$/;
+      var email = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+      var number = /^[0-9\s]+$/;
+      var valid = true;
+      removeMessage();
+
+      $("#countryName").val(countryTxt);
+      $("#phoneNumber").val(phone);
+      $("#genderTxt").val(gender);
+      $("#sourceTxt").val(sourceTxt);
+      $("#nationalityTxt").val(nationality);
+     
+
+      if(!letter.test(lastname)){
+              event.preventDefault();
+              document.getElementById("clastname").innerHTML="Input a valid Lastname";
+              valid=false;
+      }
+      
+      if(!letter.test(firstname)){
+              event.preventDefault();
+              document.getElementById("cfirstname").innerHTML="Input a valid Firstname";
+              valid=false;
+      }
+      
+      if(!email.test(visitoremail)){
+              event.preventDefault();
+              document.getElementById("cemail").innerHTML="Input a valid Email Address";
+              valid=false;
+      }
+
+      if(birthday == ""){
+              event.preventDefault();
+              document.getElementById("cbirthday").innerHTML="This field can't be empty";
+              valid=false;
+      }
+
+      if(!number.test(digit)){
+              event.preventDefault();
+              document.getElementById("cphone").innerHTML="Input a valid Phone Number";
+              valid=false;
+      }
+
+      if(city == ""){
+              event.preventDefault();
+              document.getElementById("ccity").innerHTML="This field can't be empty";
+              valid=false;
+      }
+
+      if(country == ""){
+              event.preventDefault();
+              document.getElementById("ccountry").innerHTML="This field can't be empty";
+              valid=false;
+      }
+
+      if(!gender){
+              event.preventDefault();
+              document.getElementById("cgender").innerHTML="Select your gender";
+              valid=false;
+      }     
+      
+
+      if(nationality == ""){
+              event.preventDefault();
+              document.getElementById("cnationality").innerHTML="Kindly Select";
+              valid=false;
+      }
+      
+      if(profession == ""){
+              event.preventDefault();
+              document.getElementById("cprofession").innerHTML="This field cannot be empty";
+              valid=false;
+      }
+      if(source == ""){
+              event.preventDefault();
+              document.getElementById("csource").innerHTML="Kindly Select";
+              valid=false;
+        } 
+
+
+      if($("#showOtherSource").is(':visible')){   
+        if(otherSource == "")  {
+          event.preventDefault();
+          document.getElementById("cothersource").innerHTML="This field can't be empty";
+          valid=false;
+        }        
+      }  
+      return valid;        
+  }
+
+  function removeMessage(){
+      var eremove = document.querySelectorAll(".error");
+      [].forEach.call(eremove, function(el){
+          el.innerHTML="";
+      });
+  }
+
+
+
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbywsxA4jVgyvrtwXb15aC2EZ36bxV-xWl7URbKUM_jiktzdrAUQ3sls_Q3hvQSW_p0gCQ/exec';
+  const form = document.forms['google-sheet'];
+      
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    var valid = ValidateForm();
+    console.log("Value of valid is "+valid);
+    if (valid === true){      
+      $(".spin").show();
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then((response) =>{
+          $('#successModal').modal('show');  
+          $(".spin").hide();         
+        }) 
+        .catch((error) =>{
+          console.log()
+          $(".spin").hide();
+          $('#failureModal').modal('show');
+        }) 
+    }          
+  });
+
+
+
+  $('#failureBtn').click(function(e){
+    window.location.href = "https://wa.me/2349030959735?text=My%20name%20is%20_____________,%20I%20have%20difficulty%20filling%20the%20the%20partnership%20form.";
+
+  });
+  
+
+
+  $('#successBtn').click(function(e){
+    location.reload();
+  });
+
+</script>
+
+</body>
+
+</html>
+</html>
