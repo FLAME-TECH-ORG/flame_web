@@ -674,12 +674,16 @@ section {
 }
 
 .counts .count-box {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   padding: 30px;
   width: 100%;
   background: #fff;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+.testimony-box{
+  height: 60vh;
 }
 
 .counts .count-box i {
@@ -1490,4 +1494,58 @@ section {
 .imc{
   padding: 20px 10px;
   background-color: #DEF5FD;
+}
+
+/* .vertical-menu {  
+  color: white;
+ 
+} */
+
+.vertical-menu ul {  
+  padding-left: 0px;
+ 
+}
+/*heading styles*/
+.vertical-menu h3 {
+  /* font-size: 19px;
+  line-height: 34px;
+  cursor: pointer; */
+  font-size: 22px;
+  display: block;
+  font-weight: 600;
+  color: #0b198f;
+}
+/*heading hover effect*/
+.vertical-menu h3:hover {
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.7);
+}
+/*iconfont styles*/
+.vertical-menu h3 span {
+  font-size: 16px;
+  margin-right: 10px;
+}
+/*list items*/
+.vertical-menu li {
+  list-style-type: none;
+}
+
+/*Lets hide the non active LIs by default*/
+.vertical-menu ul ul {
+  display: none;
+}
+.vertical-menu li.active ul {
+  display: block;
+}
+
+.plus{
+  color: red;
+  float: right;
+  font-size: 20px !important;  
+  margin-top: 5%;
+}
+
+.body-text{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #332b71;
+  line-height: 2rem;
 }
